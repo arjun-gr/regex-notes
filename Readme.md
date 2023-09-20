@@ -9,7 +9,8 @@ for eg. If you want to find the word **the** in the string **The dog chased the 
 ### checking using **test** method
 JS has many methods to do the testing weather the regex matches the string or not. The **test** method returns **true** if the regex matches the string, or returns **false** if it cannot find the matching string.
 
-eg: ```let testStr = "freeCodeCamp";
+eg: ```javascript
+        let testStr = "freeCodeCamp";
         let testRegex = /Code/;
         testRegex.test(testStr);```
 
